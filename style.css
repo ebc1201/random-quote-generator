@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #73a8bb;
+}
+
+.container {
+  width: 605px;
+  background: white;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+.container h1 {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .content {
+  margin: 35px 0;
+}
+
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area svg {
+  font-size: 15px;
+}
+
+.quote-area svg:first-child {
+  margin: 3px 10px 0 0;
+}
+
+.quote-area svg:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+
+.quote-area .quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.content .author {
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+
+.container .buttons {
+  border-top: 1px solid #ccc;
+}
+
+.buttons .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.features ul {
+  display: flex;
+}
+
+.features ul li {
+  list-style: none;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  cursor: pointer;
+  color: #73a8bb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #73a8bb;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+
+.features ul li:hover {
+  color: #fff;
+  background: #73a8bb;
+}
+
+.features button {
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #73a8bb;
+  transition: all 200ms ease-in-out;
+}
+
+.features button:hover {
+  background: #b8d3dd;
+}

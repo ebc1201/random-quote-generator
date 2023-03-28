@@ -24,9 +24,6 @@ dropdown.forEach((dropdown) => {
       });
       selection.classList.add('active');
       updatedApiUrl = `https://api.api-ninjas.com/v1/quotes?category=${selection.innerText}`;
-
-      // Enable the quoteBtn
-      quoteBtn.disabled = false;
     });
   });
 
@@ -82,7 +79,4 @@ dropdown.forEach((dropdown) => {
       alert('Please select a category from the dropdown menu.');
     }
   });
-
-  // Disable the quoteBtn until a selection has been made
-  quoteBtn.disabled = true;
 });

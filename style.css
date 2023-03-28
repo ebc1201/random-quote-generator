@@ -16,16 +16,12 @@ body {
     hsla(33, 94%, 57%, 1) 100%
   );
 }
-.drop-container {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
 
 .dropdown {
   min-width: 15em;
   position: relative;
   margin: 2em;
+  font-size: smaller;
 }
 
 .dropdown * {
@@ -38,7 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px #fff solid;
+  border: 2px solid #ff0f7b;
   border-radius: 15px;
   padding: 1em;
   margin-bottom: 1em;

@@ -5,7 +5,7 @@ const quoteText = document.querySelector('.quote'),
   copyBtn = document.querySelector('.copy'),
   twitterBtn = document.querySelector('.twitter');
 
-const apiKey = '6gtLUdvBF8C1Hu4XMatRHQ==zfROF3XCElZqSTs8';
+const apiKey = 'UGEVvw6yLXUzrG15EQXi33oeTJ8wt81W0Jg8INpu';
 
 const options = {
   method: 'GET',

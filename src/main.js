@@ -14,8 +14,7 @@ const options = {
   },
 };
 
-const apiUrl =
-  'https://api.api-ninjas.com/v1/quotes?category=inspirational&limit=1';
+const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=inspirational';
 
 async function randomQuote() {
   quoteBtn.classList.add('loading');

@@ -10,7 +10,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #73a8bb;
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
 }
 
 .container {
@@ -93,18 +97,18 @@ body {
   height: 47px;
   width: 47px;
   cursor: pointer;
-  color: #73a8bb;
+  color: #f89b29;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #73a8bb;
+  border: 2px solid #f89b29;
   border-radius: 50%;
   transition: all 200ms ease-in-out;
 }
 
 .features ul li:hover {
   color: #fff;
-  background: #73a8bb;
+  background: #f89b29;
 }
 
 .features button {
@@ -114,12 +118,12 @@ body {
   cursor: pointer;
   padding: 13px 22px;
   border-radius: 30px;
-  background: #73a8bb;
+  background: #ff0f7b;
   transition: all 200ms ease-in-out;
 }
 
 .features button:hover {
-  background: #b8d3dd;
+  background: #f780b5;
 }
 
 button .loading {

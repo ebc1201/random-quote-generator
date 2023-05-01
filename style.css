@@ -227,3 +227,86 @@ footer a {
   text-decoration: none;
   color: #ff0f7b;
 }
+
+@media (max-width: 650px) {
+  .container {
+    width: 500px;
+  }
+
+  .quote-area .quote {
+    font-size: 16px;
+    text-align: center;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 325px;
+  }
+
+  .quote-area .quote {
+    font-size: 16px;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  .features button {
+    padding: 5px 15px;
+    border-radius: 25px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+
+  .quote-area .quote {
+    font-size: 16px;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 250px;
+    padding: 15px;
+  }
+
+  .quote-area .quote {
+    font-size: 16px;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .dropdown {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .features button {
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+  }
+
+  .features ul li {
+    margin: 0 5px;
+    height: 36px;
+    width: 36px;
+  }
+}
